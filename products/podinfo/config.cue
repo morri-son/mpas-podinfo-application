@@ -12,5 +12,5 @@
 #SchemaVersion: "v1.0.0"
 podinfo: {
  replicas: 2
- serviceAccountName: “podinfo-sa”
+ serviceAccountName: "podinfo-sa"
 }
