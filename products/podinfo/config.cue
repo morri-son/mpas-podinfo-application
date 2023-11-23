@@ -10,4 +10,7 @@
 //  | message             | string  | "Hello from Go!" | Message to display                     |
 //  | serviceAccountName  | string  | ""               | Name of the service account to use     |
 #SchemaVersion: "v1.0.0"
-podinfo: replicas: 2
+podinfo: {
+ replicas: 2
+ serviceAccountName: “podinfo-sa”
+}
